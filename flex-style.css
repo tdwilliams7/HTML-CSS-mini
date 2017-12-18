@@ -1,0 +1,21 @@
+.section {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+.section--half {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+body {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
